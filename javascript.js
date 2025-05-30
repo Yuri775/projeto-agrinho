@@ -8,7 +8,6 @@ function acendeLuz() {
         document.documentElement.style.setProperty('--fundo-cabecalho', '#ffffff');
         document.documentElement.style.setProperty('--letra', '#ffffff');
         document.documentElement.style.setProperty('--letra-cabecalho', 'black');
-        document.d
     } else {
         luz = true;
         document.documentElement.style.setProperty('--fundo', '#ffffff');
