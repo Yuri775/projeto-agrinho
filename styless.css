@@ -1,3 +1,11 @@
+:root {
+    --fundo: #ffffff;
+    --fundo-cabecalho: rgb(29, 29, 29);
+    --letra: black;
+    --letra-cabecalho: white;
+}
+
+
 header {
     position: fixed;
     top: 0;
@@ -6,8 +14,13 @@ header {
     padding: 20px 100px;
     align-items: center;
     display: flex;
-    color: white;
-    background: black;
+    color: var(--letra-cabecalho);
+    background: var(--fundo-cabecalho);
+}
+
+body {
+    color: var(--letra);
+    background: var(--fundo);
 }
 
 .container {
@@ -17,6 +30,10 @@ header {
     justify-content: center;
     margin-left: 10%;
     width: 80%;
+}
+
+footer {
+    color: var(--letra);
 }
 
 .h1 {
