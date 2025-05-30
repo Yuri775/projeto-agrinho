@@ -1,0 +1,23 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    align-items: center;
+    display: flex;
+    background: black;
+}
+
+.container {
+    margin-top: 170px;
+    margin-bottom: 170px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.h1 {
+    color: rgb(226, 131, 43);
+}
